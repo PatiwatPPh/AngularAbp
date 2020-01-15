@@ -15,13 +15,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Acme.BookStore.HttpApi.Host": {
+    "Acme.BookStore": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:44345",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "https://localhost:44345",
+      "sslPort": 44345
     }
   }
 }
